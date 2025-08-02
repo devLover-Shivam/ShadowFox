@@ -27,6 +27,6 @@ Whether it’s a simple portfolio or a dynamic app, every project here tells a p
 ### Let’s connect
 
 If you're curious about my work or want to collaborate, I’d love to hear from you.  
-Find me on [LinkedIn](https://www.linkedin.com/in/shivamkumargupta109/) — let’s build and grow together.
+Find me on [LinkedIn](https://www.linkedin.com/in/shivam-kumar-gupta-07a9a027b/) — let’s build and grow together.
 
 
