@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Kumar Gupta - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Shivam Kumar Gupta</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Shivam Kumar Gupta</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </p>
+                <p class="hero-description">
+                    Third-year CSE student passionate about building impactful tech products, 
+                    from web applications to AI-driven solutions. My journey blends technical depth, 
+                    entrepreneurial projects, and creative storytelling.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <i class="ri-code-s-slash-line"></i>
+                    <span>Web Development</span>
+                </div>
+                <div class="floating-card">
+                    <i class="ri-brain-line"></i>
+                    <span>AI & Data Science</span>
+                </div>
+                <div class="floating-card">
+                    <i class="ri-rocket-line"></i>
+                    <span>Innovation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a third-year Computer Science Engineering student at Haldia Institute of Technology (Batch 2027). 
+                        I'm passionate about building impactful tech products, from web applications to AI-driven solutions. 
+                        My journey blends technical depth, entrepreneurial projects, and creative storytelling.
+                    </p>
+                    <p>
+                        Beyond coding, I focus on fitness, discipline, and personal growth. I believe in the power of 
+                        consistent effort and the intersection of technology with human potential.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="16">0</span>
+                            <span class="stat-label">K+ Social Reach</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="250">0</span>
+                            <span class="stat-label">+ Followers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="10">0</span>
+                            <span class="stat-label">+ Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Developer workspace" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="ri-code-line"></i>
+                        Programming & Development
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Web Development (MERN)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript & React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="ri-brain-line"></i>
+                        Data & AI
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Data Structures & Algorithms</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">NumPy, Pandas</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Data Visualization</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="ri-user-line"></i>
+                        Other Competencies
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Public Speaking & PR</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Project Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Content Creation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="ri-map-pin-line project-icon"></i>
+                        <h3 class="project-title">ATTENDO</h3>
+                    </div>
+                    <p class="project-description">
+                        Geolocation-based attendance system built during hackathon using MERN stack. 
+                        Features real-time location tracking and automated attendance marking.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">MERN Stack</span>
+                        <span class="tag">Geolocation</span>
+                        <span class="tag">Real-time</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="ri-github-line"></i>
+                            Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="ri-external-link-line"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+
+                
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="ri-robot-line project-icon"></i>
+                        <h3 class="project-title">Expense Chatbot</h3>
+                    </div>
+                    <p class="project-description">
+                        AI-powered conversational expense tracker that makes financial management 
+                        intuitive through natural language processing.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Finance</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="ri-github-line"></i>
+                            Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="ri-external-link-line"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="ri-graduation-cap-line project-icon"></i>
+                        <h3 class="project-title">Sahayak</h3>
+                    </div>
+                    <p class="project-description">
+                        AI Teacher Assistant designed for low-resource classrooms, democratizing 
+                        quality education through intelligent tutoring systems.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">Education</span>
+                        <span class="tag">Social Impact</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="ri-github-line"></i>
+                            Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="ri-external-link-line"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="ri-task-line project-icon"></i>
+                        <h3 class="project-title">Personal To-Do App</h3>
+                    </div>
+                    <p class="project-description">
+                        Clean and intuitive task management application built with vanilla JavaScript, 
+                        focusing on user experience and productivity.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Productivity</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="ri-github-line"></i>
+                            Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="ri-external-link-line"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="ri-layout-line project-icon"></i>
+                        <h3 class="project-title">StudySync Clone</h3>
+                    </div>
+                    <p class="project-description">
+                        UI/UX recreation of StudySync platform with modern design principles 
+                        and responsive layouts for educational content delivery.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="ri-github-line"></i>
+                            Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="ri-external-link-line"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Achievements</h2>
+            <div class="experience-content">
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Public Relations Lead</h3>
+                            <p class="timeline-company">Data Science Club HIT</p>
+                            <p class="timeline-description">
+                                Leading PR initiatives, organizing events, and building community engagement 
+                                for the Data Science Club. Successfully increased club visibility and participation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Mathematics & Science Tutor</h3>
+                            <p class="timeline-company">Private Tutoring</p>
+                            <p class="timeline-description">
+                                Providing personalized, structured teaching to students, focusing on 
+                                building strong foundational concepts and problem-solving skills.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Hackathon Participant</h3>
+                            <p class="timeline-company">Multiple National-Level Events</p>
+                            <p class="timeline-description">
+                                Regular participant in hackathons, developing innovative solutions 
+                                under time constraints and collaborating with diverse teams.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievements">
+                    <h3 class="achievements-title">Key Achievements</h3>
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <i class="ri-award-line achievement-icon"></i>
+                            <h4>ONGC National Scholarship</h4>
+                            <p>Recipient of prestigious national scholarship for academic excellence</p>
+                        </div>
+                        <div class="achievement-card">
+                            <i class="ri-presentation-line achievement-icon"></i>
+                            <h4>Workshop Organizer</h4>
+                            <p>Conducted Python, Git & GitHub workshops for junior students</p>
+                        </div>
+                        <div class="achievement-card">
+                            <i class="ri-user-follow-line achievement-icon"></i>
+                            <h4>Content Creator</h4>
+                            <p>Built growing social media presence with tech & fitness content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Interests -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <h2 class="section-title">Beyond Code</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <i class="ri-fitness-line interest-icon"></i>
+                    <h3>Fitness & Discipline</h3>
+                    <p>Passionate about gym training, supplements, and maintaining a disciplined lifestyle that fuels both physical and mental performance.</p>
+                </div>
+                <div class="interest-card">
+                    <i class="ri-quill-pen-line interest-icon"></i>
+                    <h3>Poetry & Writing</h3>
+                    <p>Creative expression through romantic, motivational, and introspective poetry, exploring the intersection of technology and human emotions.</p>
+                </div>
+                <div class="interest-card">
+                    <i class="ri-lightbulb-line interest-icon"></i>
+                    <h3>Entrepreneurship</h3>
+                    <p>Building startup ideas and exploring innovative solutions to real-world problems through technology and creative thinking.</p>
+                </div>
+                <div class="interest-card">
+                    <i class="ri-book-open-line interest-icon"></i>
+                    <h3>Personal Development</h3>
+                    <p>Continuous learning through books, productivity systems, and spiritual practices for holistic growth and self-improvement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Goals -->
+    <section id="goals" class="goals">
+        <div class="container">
+            <h2 class="section-title">Future Vision</h2>
+            <div class="goals-content">
+                <div class="goals-grid">
+                    <div class="goal-card">
+                        <div class="goal-number">01</div>
+                        <h3>Master MERN Stack & DSA</h3>
+                        <p>Achieve expertise in full-stack development and algorithms to crack FAANG-level internships</p>
+                    </div>
+                    <div class="goal-card">
+                        <div class="goal-number">02</div>
+                        <h3>Build Impactful Projects</h3>
+                        <p>Create innovative AI, Cloud, and Blockchain solutions that solve real-world problems</p>
+                    </div>
+                    <div class="goal-card">
+                        <div class="goal-number">03</div>
+                        <h3>Launch Student Platform</h3>
+                        <p>Successfully bring my student networking platform to market and scale it globally</p>
+                    </div>
+                    <div class="goal-card">
+                        <div class="goal-number">04</div>
+                        <h3>Expand Personal Brand</h3>
+                        <p>Build a strong personal brand around the intersection of Tech, Fitness, and Creativity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to collaborate?</h3>
+                    <p>
+                        I'm always open to discussing new opportunities, innovative projects, 
+                        or just having a conversation about technology and personal growth.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="ri-mail-line"></i>
+                            <span>shivamkumargupta109@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-map-pin-line"></i>
+                            <span>Haldia Institute of Technology</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="ri-send-plane-line"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-name">Shivam Kumar Gupta</h3>
+                    <p class="footer-tagline">Engineer | Web Developer | Data Science Enthusiast</p>
+                </div>
+                <div class="sociallinks">
+                    <a href="https://www.instagram.com/shivamkrgupta__/profilecard/?igsh=MXF2M3V4azViNzFiNw==">
+                        <i class="ri-instagram-fill"></i> Instagram
+                    </a>
+                    <a href="https://www.linkedin.com/in/shivam-kumar-gupta-07a9a027b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <i class="ri-linkedin-box-fill"></i> LinkedIn
+                    </a>
+                    <a href="https://youtube.com/@scrollwithshivam_?feature=shared">
+                        <i class="ri-youtube-fill"></i> YouTube
+                    </a>
+                    <a href="mailto:shivamkumargupta109@gmail.com">
+                        <i class="ri-mail-fill"></i> Gmail
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Shivam Kumar Gupta. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
